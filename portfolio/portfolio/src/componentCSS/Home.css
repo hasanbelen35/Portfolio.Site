@@ -1,0 +1,63 @@
+.home-div {
+  background-color: #080808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: white;
+  
+}
+.home-info {
+  color: white;
+  font-weight: 800;
+  top: 200px;
+  position: absolute; /* Bu, öğenin diğer içeriklerin üzerinde olmasına neden olabilir. */
+  z-index: 1;
+}
+.info-type-string {
+  display: flex;
+  color: #ffff;
+  letter-spacing: 3px;
+  align-items: center;
+  font-size: 30px;
+}
+.info-type-string h4 {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.info-paragraph {
+  margin-top: 5px;
+}
+.home-info-icons {
+  margin-top: 10px;
+}
+.home-info-icons a {
+  color: #04fee9;
+  font-size: 25px;
+  padding-right: 10px;
+}
+.home-button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 190px;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: -16px;
+}
+.home-button a {
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #04fee9;
+  border: 2px solid #04fee9;
+  box-shadow: 0 0 20px #04fee9;
+  border-radius: 20px;
+  transition: transform 0.8s ease;
+}
+.home-button a:hover {
+  transform: scale(1.2) translateZ(100px);
+  border: 5px solid #00ffea;
+  background-color: #00ffea;
+  color: black;
+}
